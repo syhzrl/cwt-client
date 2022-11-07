@@ -1,0 +1,13 @@
+.main-container {
+    min-height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 20px;
+    padding: 40px;
+
+    letter-spacing: 0.4px;
+}

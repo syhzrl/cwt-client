@@ -1,0 +1,12 @@
+@import 'sass/main.scss';
+
+html,
+body {
+  font-family: 'Sf-Pro';
+}
+
+.themed-container {
+  @include themify() {
+    background: themed('bg');
+  }
+}
